@@ -20,7 +20,6 @@ export default function Logon() {
       localStorage.setItem("ongName", response.data.name);
 
       history.push("/profile");
-      console.log(response.data.name);
     } catch (err) {
       alert("Falha no Login");
     }
@@ -36,8 +35,8 @@ export default function Logon() {
             placeholder="Sua ID"
             value={id}
             onChange={e => setId(e.target.value)}
+            required
           />
-          {id}
           <button className="button" type="submit">
             Entrar
           </button>
