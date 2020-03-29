@@ -1,5 +1,5 @@
 # Semana OmniStack 11
-## Projeto Be The Hero
+
 
 ## Tecnologias
 - NodeJS
@@ -11,8 +11,8 @@
 - ReactJS
 - ReactNative
 
-## Projeto
 
+## Projeto Be The Hero
 ### Entidades
 - ONG
 - Incident
